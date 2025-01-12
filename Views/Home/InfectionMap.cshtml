@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Location>
+@{
+    ViewData["Title"] = "Infection Map";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Initialize the map centered on the UK
+            const map = L.map('map').setView([53.0, -1.5], 6);
+
+            // Add OpenStreetMap tiles
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+
+            // Add circles from the model data
+        @foreach (var location in Model)
+        {
+            @:const circle_@(location.Id) = L.circle([@location.Latitude, @location.Longitude], {
+            @:color: '@(location.Cases <= 50 ? "#00ff00" : (location.Cases <= 150 ? "#ffa500" : "#ff0000"))',
+            @:fillColor: '@(location.Cases <= 50 ? "#00ff00" : (location.Cases <= 150 ? "#ffa500" : "#ff0000"))',
+            @:fillOpacity: 0.5,
+            @:radius: @(location.Cases <= 50 ? 10000 : (location.Cases <= 150 ? 20000 : 30000))
+            @:}).addTo(map);
+            @:circle_@(location.Id).bindPopup("@location.Name<br>Illness: @location.Illness<br>Cases: @location.Cases");
+        }
+                });
+    </script>
+</body>
+</html>

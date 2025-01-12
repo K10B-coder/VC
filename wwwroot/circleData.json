@@ -1,0 +1,12 @@
+{
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    },
+    "circleProperties": {
+      "color": "blue",
+      "fillColor": "blue",
+      "fillOpacity": 0.5,
+      "radius": 5000
+    }
+  }

@@ -1,0 +1,46 @@
+C:\Inversity test\Inversity test\bin\Debug\net8.0\appsettings.Development.json
+C:\Inversity test\Inversity test\bin\Debug\net8.0\appsettings.json
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Inversity test.staticwebassets.runtime.json
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Inversity test.exe
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Inversity test.deps.json
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Inversity test.runtimeconfig.json
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Inversity test.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Inversity test.pdb
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.AssemblyInfoInputs.cache
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.AssemblyInfo.cs
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.csproj.CoreCompileInputs.cache
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.MvcApplicationPartsAssemblyInfo.cache
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.RazorAssemblyInfo.cache
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.RazorAssemblyInfo.cs
+C:\Inversity test\Inversity test\obj\Debug\net8.0\staticwebassets.build.json
+C:\Inversity test\Inversity test\obj\Debug\net8.0\staticwebassets.development.json
+C:\Inversity test\Inversity test\obj\Debug\net8.0\staticwebassets\msbuild.Inversity test.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Inversity test\Inversity test\obj\Debug\net8.0\staticwebassets\msbuild.build.Inversity test.props
+C:\Inversity test\Inversity test\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Inversity test.props
+C:\Inversity test\Inversity test\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Inversity test.props
+C:\Inversity test\Inversity test\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Inversity test\Inversity test\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Inversity test\Inversity test\obj\Debug\net8.0\scopedcss\bundle\Inversity test.styles.css
+C:\Inversity test\Inversity test\obj\Debug\net8.0\scopedcss\projectbundle\Inversity test.bundle.scp.css
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.dll
+C:\Inversity test\Inversity test\obj\Debug\net8.0\refint\Inversity test.dll
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.pdb
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.genruntimeconfig.cache
+C:\Inversity test\Inversity test\obj\Debug\net8.0\ref\Inversity test.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.csproj.AssemblyReference.cache
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversit.0112A418.Up2Date
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Inversity test\Inversity test\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Inversity test\Inversity test\obj\Debug\net8.0\Inversity test.sourcelink.json

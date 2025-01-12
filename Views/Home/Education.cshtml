@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Inversity_test.Models.Disease>
+
+@{
+    ViewData["Title"] = "Disease Education";
+}
+
+<div class="container">
+    <h1 class="mb-4">Disease Education Center</h1>
+
+    <div class="row">
+        @foreach (var disease in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@disease.Name</h5>
+                        <span class="badge @(disease.Severity == "High" ? "bg-danger" :
+                                           disease.Severity == "Medium" ? "bg-warning" : "bg-success")">
+                            @disease.Severity Risk
+                        </span>
+                        <p class="card-text mt-3">@disease.Description</p>
+                        <h6>Symptoms:</h6>
+                        <ul>
+                            @foreach (var symptom in disease.Symptoms)
+                            {
+                                <li>@symptom</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
